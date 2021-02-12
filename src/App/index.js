@@ -36,23 +36,14 @@ const TableContainer = styled.div`
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* mozilla */
 
-  background: linear-gradient(to right, white 30%, rgba(255, 255, 255, 0)),
-    linear-gradient(to right, rgba(255, 255, 255, 0), white 70%) 0 100%,
-    radial-gradient(
-      farthest-side at 0% 50%,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0)
-    ),
-    radial-gradient(
-        farthest-side at 100% 50%,
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0)
-      )
-      0 100%;
+  background: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0)),
+    linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0)),
+    linear-gradient(to right, #c3c3c5, rgba(195, 195, 197, 0)),
+    linear-gradient(to left, #c3c3c5, rgba(195, 195, 197, 0));
+  background-position: 0 0, 100% 0, 0 0, 100% 0;
   background-repeat: no-repeat;
   background-color: white;
-  background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
-  background-position: 0 0, 100%, 0 0, 100%;
+  background-size: 4em 100%, 4em 100%, 1em 100%, 1em 100%;
   background-attachment: local, local, scroll, scroll;
 
   table {
